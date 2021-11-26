@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+
+    </title>
+      <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+         <div class="container">
+      <div class="header">
+        <h2>Create Account</h2>
+      </div>
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" placeholder="donaldtrump16" id="username" required>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="emailValue">Email</label>
+          <input type="email" placeholder="noname@pop-com" id="email" required>
+          <i class="fas fa-check-circle"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <small>Error message</small>
+        </div>
+        <div class="form-control">
+          <label for="Password">Password</label>
+          <input type="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+        </div>
+
+        <button>Submit</button>
+      </form>
+    </div>
+
+
+  </body>
+
+</html>
+<!-- CSS only -->
